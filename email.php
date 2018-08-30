@@ -28,8 +28,8 @@ require 'C:\xampp\composer\vendor\autoload.php';
     		$mail->isSMTP();                                     		 // Set mailer to use SMTP
     		$mail->Host = 'smtp.gmail.com';  								// Specify main and backup SMTP servers
     		$mail->SMTPAuth = true;                                // Enable SMTP authentication
-    		$mail->Username = 'sthasushree@gmail.com';         			  // SMTP username
-    		$mail->Password = 'fortune00fame';                      // SMTP password
+    		$mail->Username = '';         			  // SMTP username
+    		$mail->Password = '';                      // SMTP password
     		$mail->Port = 25;                                   // TCP port to connect to
     		$mail->setFrom('sthasushree@gmail.com', 'Test Email');
     		$mail->addAddress('somanamaharjan44@gmail.com','sona');               // Name is optional
